@@ -15,7 +15,10 @@
 		{% if item.tags contains "gif" %}
 		<div class="portfolio_img_container">
 			<img class="static_img"   src="assets/img/items/{{item.id}}.jpg">
-			<img class="animated_img" src="assets/img/items/{{item.id}}.gif">
+			<video class="animated_img" autoplay loop muted playsinline>
+				<source src="assets/img/items/{{item.id}}.webm" type="video/webm">
+				<img class="animated_img" src="assets/img/items/{{item.id}}.gif">
+			</video>
 		</div>
 		{% else %}
 		<img style="float: left;" src="assets/img/items/{{item.id}}.jpg">
