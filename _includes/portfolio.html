@@ -4,7 +4,13 @@
 
 	<div class="portfolio_item">
 		<!-- Images -->
-		<h2>{{item.name}}</h2>
+		<h2>
+			{% if item.web %}
+			<a href="{{item.web}}" target="_blank">{{item.name}}</a>
+			{% else %}
+			{{item.name}}
+			{% endif %}
+		</h2>
 		
 		{% if item.tags contains "gif" %}
 		<div class="portfolio_img_container">
@@ -34,7 +40,7 @@
 		<p>{{item.description}}</p>
 
 		{% if item.web %}
-		<a href="{{item.web}}" target="_blank"><i class="fa-solid fa-link"></i></a>
+		<a class="link" href="{{item.web}}" target="_blank"><i class="fa-solid fa-link"></i></a>
 		{% endif %}
 
 	</div>
