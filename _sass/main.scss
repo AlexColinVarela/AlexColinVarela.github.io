@@ -254,8 +254,20 @@ body {
 @media only screen and (max-width: 600px){
 	.portfolio_item { width: 100%; margin: 0; margin-bottom: 4vw; padding: 4vw; }
 }
-
-
+@media only screen and (min-width: 2150px){
+	.portfolio_item {
+		width: calc(25% - 1vw);
+		padding: 1vw;
+		padding-top: 0.5vw;
+		font-size: 1.05em;
+		margin: 0.5vw;
+	}
+	.text_section {
+		margin: 0.5vw;
+		margin-top: 0;
+		font-size: 1.05em;
+	}
+}
 // Unused content
 
 // .portfolio_table {
