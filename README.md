@@ -7,8 +7,8 @@ This is the source code of my portfolio at https://alexcolinvarela.github.io/
 
 
 TODO: 
-- [ ] Change gifs to web videos so everything load faster and in a more efficient way
-
+- [x] Change gifs to web videos so everything load faster and in a more efficient way
+- [ ] Add mp4 videos as fallback if browser does not support webm
 
 ---
 
