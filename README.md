@@ -1,6 +1,6 @@
 ## Alex Colin Varela
 
-This is the source of my portfolio at https://alexcolinvarela.github.io/ 
+This is the source code of my portfolio at https://alexcolinvarela.github.io/ 
 
 
 ---
