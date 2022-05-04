@@ -248,7 +248,7 @@ body {
 	.main_content { position: relative; width: 100%; padding-left: $global_padding; padding-top: 0px; }
 
 	.social { a { font-size: 10vw; margin: 0 1vw 0 1vw; } }
-	.info_me {	padding-top: 0px; img { width: 65%; } }
+	.info_me {	padding-top: 0px; img:first-of-type { width: 65%; } }
 	.text_section {   margin: 0;  margin-bottom: 4vw;  }
 }
 @media only screen and (max-width: 600px){
