@@ -27,6 +27,11 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
 
     <link rel="preload" href="/assets/img/space.jpg" as="image">
+    <link rel="preload" href="/assets/img/profile.jpg" as="image">
+    {% for item in site.data.portfolio %}
+      <link rel="preload" href="/assets/img/items/{{item.id}}.jpg" as="image">
+      <link rel="preload" href="/assets/img/items/{{item.id}}.gif" as="image">
+    {% endfor %}
   </head>
   <body>
 
