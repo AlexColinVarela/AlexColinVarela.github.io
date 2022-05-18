@@ -61,6 +61,7 @@ body {
 	float: left;
 	padding: $global_padding;
 	padding-top: $top_padding;
+	overflow-y: auto;
 }
 
 .info_me {
