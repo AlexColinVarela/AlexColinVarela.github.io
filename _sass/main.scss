@@ -61,6 +61,7 @@ body {
 	float: left;
 	padding: $global_padding;
 	padding-top: $top_padding;
+	padding-bottom: 0;
 	overflow-y: auto;
 }
 
@@ -251,7 +252,7 @@ body {
 	.portfolio_item { width: calc(50% - 1.4vw); }
 }
 @media only screen and (max-width: 900px){
-	.banner_main { position: relative; width: 100%; height: auto;  }
+	.banner_main { position: relative; width: 100%; height: auto; padding-bottom: $global_padding; }
 	.main_content { position: relative; width: 100%; padding-left: $global_padding; padding-top: 0px; }
 
 	.social { a { font-size: 10vw; margin: 0 1vw 0 1vw; } }
