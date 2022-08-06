@@ -14,7 +14,7 @@
   web: https://github.com/AlexColinVarela/Colin3DLibrary
   id: colin3dlibrary
   tags: C++.svg gif
-  description: A quite inefficient-education-oriented 3D Library written in pure C++ to render objs.
+  description: A 3D Library written in C++ to render objs.
 
 - name: Hospital Tool
   id: hospital
@@ -59,12 +59,12 @@
   web: https://alex-colin.itch.io/drone-x-virus
   id: dronexvirus
   tags: Unity3D.svg gif
-  description: A strategy management game made in 48 hours for a gamejam. Currently very unbalanced.
-
+  description: A strategy management game made in 48 hours for a gamejam.
+  
 - name: Graveyard Builders
   id: graveyard
   tags: Boardgame gif
-  description: An upcoming boardgame that won the 2nd place on a game design contest. Currently working on making it commercial.
+  description: An upcoming boardgame that won the 2nd place on a game design contest.
 
 - name: Emissions Trading System Boardgame
   web: https://iki-alliance.mx/hasta-el-tope-juego-de-mesa-sobre-el-sistema-de-comercio-de-emisiones/
