@@ -83,8 +83,8 @@
   tags: Unity3D.svg gif
   description: As part of my freelance work I've done a couple of AR experiences.
 
-- name: A little game called mario
-  web: https://github.com/a-little-org-called-mario/a-little-game-called-mario
-  id: mario
-  tags: Godot.svg
-  description: An open source collective hell game, I added moving cameras and called it a day.
+# - name: A little game called mario
+#  web: https://github.com/a-little-org-called-mario/a-little-game-called-mario
+#  id: mario
+#  tags: Godot.svg
+#  description: An open source collective hell game, I added moving cameras and called it a day.
