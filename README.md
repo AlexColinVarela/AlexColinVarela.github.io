@@ -1,4 +1,4 @@
-## Alex Colin Varela
+## Arunakemi Alejandra Colin Varela
 
 This is the source code of my portfolio at https://alexcolinvarela.github.io/ 
 
